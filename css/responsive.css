@@ -1,0 +1,26 @@
+/* Em andamento */
+
+@media screen and (max-width: 1154px) {
+  .trocar-capa-temporario, .em-breve-alerta, body > section > div > div:nth-child(3) {
+    display: none;
+  }
+
+  .aula-container {
+    margin-bottom: 20px;
+  }
+
+  .pesquisa-container {
+    display: none;
+  }
+
+  body > header > div.conteudo > h1 {
+    width: 100%;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    height: 60px;
+  }
+}
